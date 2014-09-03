@@ -2,13 +2,12 @@ package main
 
 import (
 	"fmt"
-	"core"
-	"sort"
+	"github.com/eirikwang/GoSpace/core"
 	//"code.google.com/p/draw2d/"
-	"entity/player"
-	"entity"
+	"github.com/eirikwang/GoSpace/entity/player"
+	"github.com/eirikwang/GoSpace/entity"
 	//"github.com/go-gl/gl"
-	"world"
+	"github.com/eirikwang/GoSpace/world"
 )
 
 var (
@@ -26,7 +25,6 @@ func main() {
 	fmt.Println(v)
 	ent = &player.Player{}
 	fmt.Println(ent.GetPosition())
-	sort.Sort()
 
 
 }

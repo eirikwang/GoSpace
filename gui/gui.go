@@ -1,6 +1,6 @@
 package gui
 import (
-	"core"
+	"github.com/eirikwang/GoSpace/core"
 	"io"
 	"fmt"
 	"os"

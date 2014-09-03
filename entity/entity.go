@@ -1,8 +1,8 @@
 package entity
 import (
-	"core"
+	"github.com/eirikwang/GoSpace/core"
 )
 
 type Entity interface{
-	GetPosion() *core.Vertex
+	GetPosition() core.Vertex
 }

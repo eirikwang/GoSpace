@@ -1,10 +1,10 @@
 package world
 
 import (
-	"entity"
+	"github.com/eirikwang/GoSpace/entity"
 	"fmt"
 	"math/rand"
-	"core"
+	"github.com/eirikwang/GoSpace/core"
 )
 
 type Map struct {
